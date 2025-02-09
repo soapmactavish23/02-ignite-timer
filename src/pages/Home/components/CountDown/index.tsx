@@ -14,6 +14,7 @@ export default function CountDown() {
 
   const totalSeconds = activeCycle ? activeCycle.minutesAmount * 60 : 0;
 
+  //#D065
   useEffect(() => {
     let interval: number;
 
