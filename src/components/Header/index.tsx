@@ -8,10 +8,10 @@ export function Header() {
     <HeaderContainer>
       <img src={logoIgnite} alt="" />
       <nav>
-        <NavLink to="/">
+        <NavLink to="/pomodoro-timer">
           <Timer size={24} />
         </NavLink>
-        <NavLink to="/history">
+        <NavLink to="/pomodoro-timer/history">
           <Scroll size={24} />
         </NavLink>
       </nav>
